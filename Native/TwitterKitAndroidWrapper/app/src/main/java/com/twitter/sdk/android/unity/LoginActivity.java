@@ -39,6 +39,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         authClient = new TwitterAuthClient();
+        authClient.cancelAuthorize();
         authClient.authorize(this, new Callback<TwitterSession>() {
             @Override
             public void success(Result<TwitterSession> result) {
