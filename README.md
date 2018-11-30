@@ -1,5 +1,8 @@
 **Twitter will be discontinuing support for Twitter Kit on October 31, 2018. [Read the blog post here](https://blog.twitter.com/developer/en_us/topics/tools/2018/discontinuing-support-for-twitter-kit-sdk.html).**
 ___
+Change of this fork:
+- Fixed reauthorization issue on Android described in [here](https://github.com/twitter/twitter-kit-android/issues/76#issue-199593220)
+___
 
 # Twitter Kit for Unity
 
